@@ -928,7 +928,7 @@ No external dependencies needed!
 
 ## Credits
 
-**Author:** Reep
+**Author:** Reep    https://www.youtube.com/@reep0074
 
 **Built With:**
 - Rust programming language
