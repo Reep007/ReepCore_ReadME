@@ -218,8 +218,7 @@ Automatic color extraction and live theme propagation:
 4. All apps reload instantly—no restarts needed
 
 **Supported Applications:**
-- Compositor borders (reepcompositor)
-- Terminal colors (reepterm, kitty, alacritty, foot)
+- Terminal colors (kitty, alacritty)
 - Shell prompt (Neo powerline)
 - Syntax highlighting (zsh-rust-highlight)
 - Text editor (reepedit)
@@ -428,7 +427,7 @@ walr extracts colors → saves to ~/.config/walr/colors.json
 Applications watch colors.json (inotify)
          ↓
 ┌────────────────────────────────────────────┐
-│  Compositor  → Reloads border colors       │
+│       │
 │  Terminal    → Reloads palette (via escape)│
 │  Shell       → Regenerates prompt          │
 │  Editor      → Reloads theme colors        │
@@ -452,7 +451,6 @@ ReepCore is part of a larger integrated stack:
 - `walr` — Color extraction and templating
 
 **Desktop Environment:**
-- `reepcompositor` — Wayland compositor with walr integration
 - `reepterm` — Terminal emulator with Kitty graphics protocol (in progress)
 - `reepedit` — Text editor (built into ReepCore TUI)
 
@@ -634,19 +632,6 @@ Managing personal machines shouldn't require different tools than managing serve
 - ✅ zsh-rust-suggest — Stable
 - ✅ Neo prompt — Stable
 
-### Planned Features
-
-**Near-term:**
-- [ ] Snapper integration (automatic snapshots)
-- [ ] Enhanced conflict resolution (package management)
-
-**Future:**
-- [ ] Multi-machine synchronization (share profiles across devices)
-- [ ] Theme marketplace (community wallpaper/color schemes)
-- [ ] Advanced package pinning (lock versions)
-- [ ] Security profiles (system hardening templates)
-- [ ] Plugin system (extend via Rust crates)
-
 ---
 
 ## Technical Requirements
@@ -747,39 +732,8 @@ If it's not usable, it's not done.
 
 **Inspired By:**
 - NixOS (declarative configuration)
-- Ansible (pragmatic automation)
 - Pywal (theme generation)
-- The Unix philosophy (do one thing well, but integrate)
+- ML4W My Linux four Work ✅
 
----
-
-## License
-
-[Your chosen license - e.g., MIT, GPL-3.0, etc.]
-
----
-
-## Contributing
-
-ReepCore is a passion project built to solve real problems. If you find it useful and want to contribute:
-
-- **Bug Reports:** Open an issue with steps to reproduce
-- **Feature Requests:** Explain your use case and why it matters
-- **Pull Requests:** Follow Rust conventions, add tests where appropriate
-- **Documentation:** Improve this README, add examples, write guides
-
-**Code of Conduct:** Be kind, be respectful, be constructive.
-
----
-
-## Acknowledgments
-
-Thanks to:
-- The Arch Linux team for the best rolling-release distro
-- The Rust community for excellent tooling and libraries
-- Everyone who's shared their dotfiles and inspired better desktop management
-- The Wayland developers pushing Linux graphics forward
-
----
 
 *"A system should be more than the sum of its parts. ReepCore makes it so."*
