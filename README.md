@@ -769,10 +769,6 @@ Companion to [reepfetch](https://github.com/Reep007/reepfetch).
 
 ## Installation
 
-```bash
-# From crates.io (when published)
-cargo install reepwal
-
 # From source
 git clone https://github.com/Reep007/walr
 cd walr && cargo install --path .
