@@ -218,8 +218,7 @@ Automatic color extraction and live theme propagation:
 4. All apps reload instantly—no restarts needed
 
 **Supported Applications:**
-- Compositor borders (reepcompositor)
-- Terminal colors (reepterm, kitty, alacritty, foot)
+- Terminal colors (kitty, alacritty)
 - Shell prompt (Neo powerline)
 - Syntax highlighting (zsh-rust-highlight)
 - Text editor (reepedit)
@@ -428,7 +427,7 @@ walr extracts colors → saves to ~/.config/walr/colors.json
 Applications watch colors.json (inotify)
          ↓
 ┌────────────────────────────────────────────┐
-│  Compositor  → Reloads border colors       │
+│       │
 │  Terminal    → Reloads palette (via escape)│
 │  Shell       → Regenerates prompt          │
 │  Editor      → Reloads theme colors        │
@@ -452,7 +451,6 @@ ReepCore is part of a larger integrated stack:
 - `walr` — Color extraction and templating
 
 **Desktop Environment:**
-- `reepcompositor` — Wayland compositor with walr integration
 - `reepterm` — Terminal emulator with Kitty graphics protocol (in progress)
 - `reepedit` — Text editor (built into ReepCore TUI)
 
@@ -633,19 +631,6 @@ Managing personal machines shouldn't require different tools than managing serve
 - ✅ zsh-rust-highlight — Stable
 - ✅ zsh-rust-suggest — Stable
 - ✅ Neo prompt — Stable
-
-### Planned Features
-
-**Near-term:**
-- [ ] Snapper integration (automatic snapshots)
-- [ ] Enhanced conflict resolution (package management)
-
-**Future:**
-- [ ] Multi-machine synchronization (share profiles across devices)
-- [ ] Theme marketplace (community wallpaper/color schemes)
-- [ ] Advanced package pinning (lock versions)
-- [ ] Security profiles (system hardening templates)
-- [ ] Plugin system (extend via Rust crates)
 
 ---
 
