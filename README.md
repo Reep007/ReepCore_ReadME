@@ -720,9 +720,219 @@ If it's not usable, it's not done.
 
 ---
 
+
+# walr — wallpaper → theme (Rust)
+
+```
+walr/
+├─ Cargo.toml
+├─ README.md
+├─ LICENSE
+├─ src/
+│  ├─ main.rs
+│  ├─ cli.rs
+│  ├─ config.rs
+│  ├─ palette/
+│  │   ├─ mod.rs
+│  │   ├─ extract.rs
+│  │   └─ lch_kmeans.rs
+│  ├─ templates.rs
+│  └─ apply.rs
+├─ templates/
+│  ├─ alacritty.yml.hbs
+│  ├─ kitty.conf.hbs
+│  ├─ hyprland.conf.hbs
+│  ├─ waybar.css.hbs
+│  ├─ wofi.css.hbs
+│  ├─ dunstrc.hbs
+│  ├─ gtk.css.hbs
+│  ├─ prompt.sh.hbs
+│  └─ ohmyposh.json.hbs
+└─ examples/
+   └─ waybar-config.jsonc    ← CREATE THIS         
+   
+```
+# 🎨 walr
+
+A blazingly fast wallpaper-based theme generator written in Rust.
+
+Companion to [reepfetch](https://github.com/Reep007/reepfetch).
+
+## Features
+
+- 🚀 **Fast**: Written in Rust for maximum performance
+- 🎨 **Smart Color Extraction**: Uses perceptually uniform LCH color space with k-means clustering
+- 📦 **Multiple Templates**: Alacritty, Waybar, GTK, and more
+- 👁️ **Watch Mode**: Automatically regenerate themes when wallpaper changes
+- 🔄 **Auto-Apply**: Optionally reload applications after generating themes
+- 🎯 **Zero Config**: Works out of the box with sensible defaults
+
+## Installation
+
+```bash
+# From crates.io (when published)
+cargo install reepwal
+
+# From source
+git clone https://github.com/Reep007/walr
+cd walr && cargo install --path .
+```
+
+## Quick Start
+
+```bash
+# Generate theme from wallpaper
+walr /path/to/wallpaper.jpg
+
+# Generate and apply immediately
+walr /path/to/wallpaper.jpg --apply
+
+# Watch mode - auto-regenerate on wallpaper change
+walr /path/to/wallpaper.jpg --watch --apply
+
+# Custom number of colors
+walr wallpaper.jpg --colors 8
+
+# Custom output directory
+walr wallpaper.jpg --output ~/.config/my-theme
+```
+
+## Usage
+
+```
+walr [OPTIONS] <PATH>
+
+Arguments:
+  <PATH>  Path to wallpaper image or directory to watch
+
+Options:
+  -c, --colors <N>       Number of colors to extract [default: 16]
+  -o, --output <PATH>    Output directory for generated files
+  -a, --apply            Apply theme immediately (reload apps)
+  -w, --watch            Watch mode - regenerate on wallpaper change
+  -h, --help             Print help
+  -V, --version          Print version
+```
+
+## How It Works
+
+1. **Color Extraction**: Resizes image for performance, then uses k-means clustering in perceptually uniform LCH color space
+2. **Template Generation**: Applies extracted colors to Handlebars templates
+3. **Theme Application**: Optionally reloads configured applications
+
+## Generated Files
+
+By default, reepwal generates these files in `~/.config/walr/`:
+
+- `colors.json` - All extracted colors in JSON format
+- `alacritty.yml` - Alacritty terminal colors
+- `kitty.conf` - Kitty terminal colors
+- `hyprland.conf` - Hyprland colors (borders, shadows, groups)
+- `waybar.css` - Waybar styling
+- `wofi.css` - Wofi launcher styling
+- `dunstrc` - Dunst notification colors
+- `gtk.css` - GTK theme colors
+- `prompt.sh` - Custom zsh/bash powerline prompt
+- `ohmyposh.json` - Oh My Posh theme (optional)
+- `waybar-config.jsonc` - Example Waybar config (ready to use)
+
+## Configuration
+
+Link generated files to your app configs:
+
+```bash
+# Alacritty
+ln -sf ~/.config/walr/alacritty.yml ~/.config/alacritty/colors.yml
+
+# Kitty
+echo "include ~/.config/walr/kitty.conf" >> ~/.config/kitty/kitty.conf
+
+# Hyprland
+echo "source = ~/.config/walr/hyprland.conf" >> ~/.config/hypr/hyprland.conf
+
+# Waybar
+# Add to waybar/style.css:
+@import "~/.config/walr/waybar.css";
+
+# Copy the example config:
+cp ~/.config/walr/waybar-config.jsonc ~/.config/waybar/config.jsonc
+
+# Reload waybar:
+pkill -SIGUSR2 waybar
+
+# Wofi
+wofi --style ~/.config/walr/wofi.css
+# Or symlink:
+ln -sf ~/.config/walr/wofi.css ~/.config/wofi/style.css
+
+# Dunst
+ln -sf ~/.config/walr/dunstrc ~/.config/dunst/dunstrc
+# Then restart dunst:
+killall dunst && dunst &
+
+# GTK
+ln -sf ~/.config/walr/gtk.css ~/.config/gtk-3.0/gtk.css
+
+# Zsh Prompt (recommended)
+echo "source ~/.config/walr/prompt.sh" >> ~/.zshrc
+
+# Bash Prompt (also works)
+echo "source ~/.config/walr/prompt.sh" >> ~/.bashrc
+
+# Oh My Posh (if you prefer)
+eval "$(oh-my-posh init zsh --config ~/.config/walr/ohmyposh.json)"
+```
+
+## Custom Templates
+
+Create your own templates using Handlebars syntax:
+
+```handlebars
+/* My custom template */
+background: {{special.background}};
+foreground: {{special.foreground}};
+color0: {{colors.color0}};
+```
+
+### Custom Shell Prompt
+
+The generated `prompt.sh` works with both **zsh** and **bash** and includes:
+
+- 📁 Current directory in accent color
+- 🌿 Git branch with status (changes, ahead/behind)
+- 🦀 Auto-detects: Rust, Node, Python, Go projects
+- ⏱️ Execution time (for commands >1s)
+- ✓/✗ Status indicator
+- 🎨 Powerline-style separators
+
+No external dependencies needed!
+
+## Comparison with pywal
+
+| Feature | reepwal | pywal |
+|---------|---------|-------|
+| Language | Rust | Python |
+| Speed | 🚀🚀🚀 | 🚀 |
+| Color Space | LCH (perceptual) | RGB |
+| Watch Mode | ✅ | ❌ |
+| Dependencies | Single binary | Python + PIL |
+
+## Supported Applications
+
+- ✅ Alacritty
+- ✅ Kitty
+- ✅ Hyprland
+- ✅ Waybar
+- ✅ Wofi
+- ✅ Dunst
+- ✅ GTK
+- ✅ Zsh/Bash (custom powerline prompt)
+
+
+
 ## Credits
 
-**Author:** [Your Name]
+**Author:** Reep
 
 **Built With:**
 - Rust programming language
