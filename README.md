@@ -112,7 +112,7 @@ Traditional Linux configuration management has fragmentation:
 │                         │                                │
 │                         │ • walr-native terminal         │
 │  • Live walr borders    │ • Kitty graphics protocol      │
-│  • 6+ tiling layouts    │                                │
+│                         │                                │
 │                         │                                │
 │  Shell Enhancement      │ Text Editor                    │
 │  • zsh-rust-highlight   │ • reepedit (built-in)          │
