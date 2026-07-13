@@ -4,7 +4,6 @@
 
 This is not a library, package, or general-purpose tool. This is **your machine, formalized**.
 
-## What Is This?
 
 ReepCore is a monorepo containing:
 
