@@ -720,20 +720,13 @@ If it's not usable, it's not done.
 
 ---
 
-## Credits
-
-**Author:** [Your Name]
+**Author:** Brad/Reep
 
 **Built With:**
 - Rust programming language
 - ratatui (TUI framework)
 - Smithay (Wayland compositor library)
 - The Arch Linux community
-
-**Inspired By:**
-- NixOS (declarative configuration)
-- Pywal (theme generation)
-- ML4W My Linux four Work ✅
 
 
 *"A system should be more than the sum of its parts. ReepCore makes it so."*
