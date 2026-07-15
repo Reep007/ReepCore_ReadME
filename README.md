@@ -1,6 +1,6 @@
 # ReepCore
 
-**Your complete, opinionated Arch + ReepCompositor system — formalized.**
+**ReepCore is a declarative operating environment that turns an Arch installation into a reproducible workstation through generations, atomic configuration changes, and tightly integrated companion tools.**
 
 This is not a library, package, or general-purpose tool. This is **your machine, formalized**.
 
