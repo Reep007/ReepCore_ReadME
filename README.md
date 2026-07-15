@@ -1,6 +1,6 @@
 # ReepCore
 
-**ReepCore is a declarative operating environment that turns an Arch installation into a reproducible workstation through generations, atomic configuration changes, and tightly integrated companion tools.**
+**ReepCore is a declarative desktop operating environment built around reproducible system state, integrated tooling, and an opinionated Wayland workflow.**
 
 This is not a library, package, or general-purpose tool. This is **your machine, formalized**.
 
