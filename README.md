@@ -233,6 +233,8 @@ It understands the operating system itself.
 
 <img src="Preview_images/ReepCore_System_Information.png" width="100%" alt="System Information">
 
+<img src="Preview_images/Generations_inof.png" width="100%" alt="System Information">
+
 </div>
 
 Track:
