@@ -13,7 +13,24 @@
 
 </div>
 
+---
 
+# Screenshots
+
+
+
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b07404ab-37a7-463a-bc89-5f40efdd5e75" />
+
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/127bf7c3-f997-4604-8685-d6a60ccbacae" />
+
+<img width="2563" height="1441" alt="image" src="https://github.com/user-attachments/assets/4251eb26-055d-4b16-b17a-5d07ec33f06f" />
+
+<img width="2562" height="1441" alt="image" src="https://github.com/user-attachments/assets/272a0b05-c2a2-44d9-8a2d-c2e89d86b4d4" />
+
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6a665b5f-af3c-4790-89d7-2ebe95daa813" />
+
+
+---
 
 # What is ReepCore?
 
@@ -349,24 +366,6 @@ It formalizes one complete Linux environment into a cohesive system where every 
 
 That is the idea behind ReepCore.
 
----
-
-# Screenshots
-
-
-
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b07404ab-37a7-463a-bc89-5f40efdd5e75" />
-
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/127bf7c3-f997-4604-8685-d6a60ccbacae" />
-
-<img width="2563" height="1441" alt="image" src="https://github.com/user-attachments/assets/4251eb26-055d-4b16-b17a-5d07ec33f06f" />
-
-<img width="2562" height="1441" alt="image" src="https://github.com/user-attachments/assets/272a0b05-c2a2-44d9-8a2d-c2e89d86b4d4" />
-
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6a665b5f-af3c-4790-89d7-2ebe95daa813" />
-
-
----
 
 
 # Roadmap
