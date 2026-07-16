@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="Preview_images/banner.png" alt="ReepCore Banner">
+
 
 # ReepCore
 
@@ -53,11 +53,7 @@ Not another AI chatbot.
 
 <div align="center">
 
-## Everything. Together.
-
-<img src="Preview_images/hero.png" alt="ReepCore Overview">
-
-*Your strongest screenshot goes here.*
+<img src="Preview_images/ReepCore.png" alt="ReepCore Overview">
 
 </div>
 
