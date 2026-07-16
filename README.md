@@ -1,94 +1,79 @@
 <div align="center">
 <img width="5240" height="2600" alt="reepcore_readme_banner_v2" src="https://github.com/user-attachments/assets/8cefb073-2704-4507-840d-39c29217b1ec" />
 
+<div align="center">
+
+<img src="Preview_images/banner.png" alt="ReepCore Banner">
+
 # ReepCore
 
-### Your machine. Formalized.
+### Your Machine. Formalized.
 
-*A cohesive, AI-powered Linux environment built around one source of truth.*
+*A cohesive Linux operating environment where your desktop, development tools, system configuration, and AI all share one source of truth.*
 
----
+<br>
 
-**Declarative System Management • Local AI • Wayland Desktop • Development Environment • Atomic Rollbacks**
+**Built with Rust • Powered by Arch Linux • Local AI • Declarative • Wayland Native**
 
 </div>
 
 ---
 
-# Screenshots
+# A Different Kind of Linux Environment
 
+Most Linux desktops slowly become collections of unrelated tools.
 
+Different configuration files.
 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b07404ab-37a7-463a-bc89-5f40efdd5e75" />
+Different update cycles.
 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/127bf7c3-f997-4604-8685-d6a60ccbacae" />
+Different caches.
 
-<img width="2563" height="1441" alt="image" src="https://github.com/user-attachments/assets/4251eb26-055d-4b16-b17a-5d07ec33f06f" />
-
-<img width="2562" height="1441" alt="image" src="https://github.com/user-attachments/assets/272a0b05-c2a2-44d9-8a2d-c2e89d86b4d4" />
-
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6a665b5f-af3c-4790-89d7-2ebe95daa813" />
-
-
----
-
-# What is ReepCore?
-
-ReepCore is a complete Linux ecosystem.
-
-Not a dotfiles repository.
-
-Not another Hyprland setup.
-
-Not an AI chatbot.
-
-Not a package manager.
-
-ReepCore brings system management, desktop configuration, development tools, and local AI together into one cohesive environment.
-
-Every component is designed to work together instead of being assembled from unrelated projects.
-
-> **One machine. One philosophy. One source of truth.**
-
----
-
-# Why?
-
-Most Linux desktops slowly become collections of disconnected tools.
-
-```
-Wallpaper Generator
-        │
-Dotfiles
-        │
-Launcher
-        │
-Status Bar
-        │
-Shell Plugins
-        │
-AI Assistant
-        │
-Package Manager
-```
-
-Every piece has its own configuration.
-
-Its own cache.
-
-Its own update cycle.
-
-Its own philosophy.
+Different philosophies.
 
 Eventually...
 
 Nobody remembers how it all fits together.
 
----
-
 ReepCore takes a different approach.
 
-```
+Instead of assembling dozens of independent projects, it builds an entire operating environment where every component is designed to work together.
+
+Not another Hyprland setup.
+
+Not another dotfiles repository.
+
+Not another package manager.
+
+Not another AI chatbot.
+
+**One machine. One philosophy. One source of truth.**
+
+---
+
+<div align="center">
+
+## Everything. Together.
+
+<img src="Preview_images/hero.png" alt="ReepCore Overview">
+
+*Your strongest screenshot goes here.*
+
+</div>
+
+---
+
+# Everything Works Together
+
+| 🧠 Local AI | ⚙ Declarative | 🖥 Native Wayland |
+|:-----------:|:------------:|:----------------:|
+| Jarvis understands your system. | Reproducible configurations. | Built specifically for ReepCore. |
+
+---
+
+# Built Around One Source of Truth
+
+```text
                   REEPCORE
                       │
       ┌───────────────┼────────────────┐
@@ -101,73 +86,40 @@ ReepCore takes a different approach.
  Modules         Runtime            Automation
 ```
 
-Everything has a single owner.
+Everything belongs somewhere.
 
-Everything has one place to live.
+Everything has one owner.
 
 Everything works together.
 
 ---
 
-# The ReepCore Ecosystem
-
-| Component | Description |
-|-----------|-------------|
-| 🧠 **REEPCORE** | Declarative system management with generations and rollback |
-| 🤖 **Jarvis** | Local AI assistant with deep system awareness |
-| 🖥 **ReepCompositor** | Custom Wayland compositor |
-| 🎨 **walr** | Wallpaper-driven color engine |
-| 🖼 **reepaper** | Native Wayland wallpaper daemon |
-| 📂 **reef** | File manager |
-| ✏️ **reepedit** | Built-in editor |
-| 🚀 **reep-launcher** | Application launcher |
-| 📊 **reepfetch** | System renderer aware of REEPCORE state |
-| 💻 **reep-shell** | Native status bar |
-| ⚡ **zsh-rust-plugins** | Rust-powered shell enhancements |
-
----
+<div align="center">
 
 # Meet Jarvis
 
+<img src="Preview_images/jarvis.png" alt="Jarvis">
+
+</div>
+
 Jarvis isn't another chat window.
 
-It is part of ReepCore.
+It lives inside your operating system.
 
-It understands your machine because it lives inside your machine.
+It understands:
 
-
-
-Jarvis understands:
-
-✔ Running system
-
-✔ Installed packages
-
-✔ Active profiles
-
-✔ Theme state
-
-✔ Generation history
-
-✔ Repository structure
-
-✔ Open files
-
-✔ Embedded editor
-
-✔ Embedded terminal
-
-✔ Security monitoring
-
-✔ Network monitoring
-
-✔ Documentation
-
-✔ Local RAG indexes
-
-✔ Git worktrees
-
-✔ JetBrains MCP
+- Running system
+- Installed packages
+- Active profiles
+- Theme state
+- Open files
+- Embedded editor
+- Embedded terminal
+- Git worktrees
+- Local RAG
+- JetBrains MCP
+- Network monitoring
+- Security monitoring
 
 Everything runs locally through Ollama.
 
@@ -175,57 +127,40 @@ No cloud required.
 
 ---
 
+<div align="center">
+
 # Built for Developers
 
-Development happens without leaving ReepCore.
+<img src="Preview_images/development.png" alt="Development">
 
+</div>
+
+Development happens without leaving ReepCore.
 
 Included workflows:
 
 - Embedded editor
 - Interactive terminal
-- Unified diff preview
-- Git sandbox worktrees
-- Automatic patch review
-- Local RAG
-- RustRover MCP integration
 - AI code review
+- Unified diff preview
+- Patch application
+- Cargo integration
+- Git sandbox worktrees
+- RustRover MCP
+- Local RAG
 - Multi-model routing
-- Semantic repository search
 
-The goal isn't replacing your IDE.
-
-The goal is making your operating environment understand your projects.
+Your operating system understands your projects.
 
 ---
 
-# Declarative System Management
+<div align="center">
 
-Inspired by declarative systems while remaining pure Arch Linux.
+# Theme Everything
 
-```
-reepcore switch
+<img src="Preview_images/themes.png" alt="Theme Manager">
 
-reepcore rollback
-
-reepcore migrate
-
-reepcore doctor
-
-reepcore theme apply
-
-reepcore tui
-```
-
-Configuration becomes reproducible.
-
-Rollbacks become effortless.
-
-Your machine becomes understandable.
-
----
-
-# Theme Engine
+</div>
 
 One wallpaper.
 
@@ -233,39 +168,27 @@ One command.
 
 Everything updates.
 
----
-
-![Theme](Preview_images/theme_manager.png)
-
----
-
-walr generates:
+walr automatically generates:
 
 - Terminal colors
-
 - GTK themes
-
-- Wayland colors
-
+- Wayland themes
 - Application themes
-
 - Shell colors
 
-- Generated outputs
-
-All managed through ReepCore.
+Everything remains synchronized.
 
 ---
 
-# Real-Time Monitoring
+<div align="center">
+
+# Monitor Everything
+
+<img src="Preview_images/monitoring.png" alt="Monitoring">
+
+</div>
 
 Your desktop is also your operations center.
-
----
-
-![Monitoring](Preview_images/monitoring.png)
-
----
 
 Monitor:
 
@@ -276,43 +199,60 @@ Monitor:
 - ntopng
 - Fail2Ban
 - Suricata
-- Security events
+- Security Events
 
-Without leaving the TUI.
+Without leaving ReepCore.
 
 ---
 
-# Local-First AI
+# The ReepCore Ecosystem
 
-Privacy isn't an option.
+| Component | Purpose |
+|-----------|---------|
+| 🧠 **REEPCORE** | Declarative system management |
+| 🤖 **Jarvis** | AI assistant |
+| 🖥 **ReepCompositor** | Wayland compositor |
+| 🎨 **walr** | Color engine |
+| 🖼 **reepaper** | Wallpaper daemon |
+| 🚀 **reep-launcher** | Application launcher |
+| 📂 **reef** | File manager |
+| ✏ **reepedit** | Embedded editor |
+| 💻 **reep-shell** | Native shell |
+| 📊 **reepfetch** | System renderer |
 
-It's the default.
+---
 
-✔ Local Ollama
+# Local First
 
-✔ Local embeddings
+✔ Local AI
+
+✔ Local Models
+
+✔ Local Embeddings
+
+✔ Local Voice
 
 ✔ Local RAG
 
-✔ Local models
-
-✔ Local voice
-
 ✔ Local Git
 
-✔ Local terminal
+✔ Local Search
 
-✔ Local editing
+✔ Local Editing
+
+✔ Local Terminal
 
 No subscriptions.
 
-No APIs required.
+No cloud.
+
+No telemetry.
 
 ---
 
 # Architecture
 
-```
+```text
                          ReepCore
                              │
        ┌─────────────────────┼────────────────────┐
@@ -323,12 +263,12 @@ No APIs required.
  Modules              walr                Jarvis
  Rollbacks            reepaper            RAG
  Packages             reep-shell          Sandbox
- Generations          launcher            MCP
+ Generations          Launcher            MCP
 ```
 
-Everything answers one question:
+Everything answers one question.
 
-> **Am I State, Output, or Control?**
+> **State? Output? Or Control?**
 
 ---
 
@@ -354,47 +294,50 @@ sudo reboot
 
 ReepCore is intentionally opinionated.
 
-It isn't trying to support every workflow.
+It doesn't try to support every workflow.
 
-It isn't trying to become another Linux distribution.
-
-It isn't trying to replace Arch Linux.
+It doesn't try to become another Linux distribution.
 
 Instead...
 
-It formalizes one complete Linux environment into a cohesive system where every component understands every other component.
+It formalizes one complete Linux environment into a cohesive operating system where every component understands every other component.
 
-That is the idea behind ReepCore.
+The result isn't a collection of tools.
 
+It's a platform.
 
+---
 
 # Roadmap
 
-- ✅ Declarative system management
-- ✅ Atomic rollbacks
-- ✅ Module manager
-- ✅ Theme engine
-- ✅ Wayland compositor
-- ✅ Local AI assistant
-- ✅ Embedded editor
-- ✅ Embedded terminal
-- ✅ Git sandbox
-- ✅ Patch preview
-- ✅ Local RAG
-- ✅ Security monitoring
-- ✅ JetBrains MCP
-- 🚧 Multi-agent workflows
-- 🚧 Remote node management
-- 🚧 Plugin system
+| Status | Feature |
+|:------:|---------|
+| ✅ | Declarative System Management |
+| ✅ | Atomic Rollbacks |
+| ✅ | Module Manager |
+| ✅ | Theme Engine |
+| ✅ | ReepCompositor |
+| ✅ | Jarvis AI |
+| ✅ | Embedded Editor |
+| ✅ | Embedded Terminal |
+| ✅ | Git Sandbox |
+| ✅ | Local RAG |
+| ✅ | Security Monitoring |
+| ✅ | JetBrains MCP |
+| 🚧 | Multi-Agent Workflows |
+| 🚧 | Remote Node Management |
+| 🚧 | Plugin System |
 
 ---
 
 <div align="center">
 
-## ReepCore
+# ReepCore
 
-**Your machine. Formalized.**
+### Your Machine. Formalized.
 
-*Built with Rust • Powered by Arch Linux • Enhanced by Local AI*
+**Built with Rust • Powered by Arch Linux • Enhanced by Local AI**
+
+*"A system should be more than the sum of its parts."*
 
 </div>
