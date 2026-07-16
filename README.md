@@ -1,9 +1,7 @@
-<div align="center">
-<img width="5240" height="2600" alt="reepcore_readme_banner_v2" src="https://github.com/user-attachments/assets/8cefb073-2704-4507-840d-39c29217b1ec" />
 
 <div align="center">
 
-
+<img width="5240" height="2600" alt="ReepCore Banner" src="https://github.com/user-attachments/assets/8cefb073-2704-4507-840d-39c29217b1ec">
 
 # ReepCore
 
@@ -37,7 +35,7 @@ Nobody remembers how it all fits together.
 
 ReepCore takes a different approach.
 
-Instead of assembling dozens of independent projects, it builds an entire operating environment where every component is designed to work together.
+Instead of assembling dozens of independent projects, it builds an entire operating environment where every component understands every other component.
 
 Not another Hyprland setup.
 
@@ -47,15 +45,25 @@ Not another package manager.
 
 Not another AI chatbot.
 
-**One machine. One philosophy. One source of truth.**
+> **The operating system becomes self-aware.**
+
+Every component understands the state of the system.
+
+Every tool speaks the same language.
+
+AI becomes part of the operating environment instead of another application.
 
 ---
 
+# Everything. Together.
+
 <div align="center">
 
-<img src="Preview_images/ReepCore.png" alt="ReepCore Overview">
+<img src="Preview_images/ReepCore.png" width="100%" alt="ReepCore Overview">
 
 </div>
+
+ReepCore transforms a traditional Arch Linux installation into a cohesive operating environment where system management, desktop configuration, development, and AI all operate from one source of truth.
 
 ---
 
@@ -90,11 +98,41 @@ Everything works together.
 
 ---
 
+# Modular by Design
+
+Enable complete capabilities instead of hunting through dozens of configuration files.
+
+Profiles describe **what** your system should become.
+
+Modules describe **how** it gets there.
+
 <div align="center">
+
+<img src="Preview_images/Module_Manager.png" width="100%" alt="Module Manager">
+
+</div>
+
+Desktop.
+
+Development.
+
+Gaming.
+
+Security.
+
+Networking.
+
+Media.
+
+Everything is declarative.
+
+---
 
 # Meet Jarvis
 
-<img src="Preview_images/Jarvis.png" alt="Jarvis">
+<div align="center">
+
+<img src="Preview_images/Jarvis.png" width="100%" alt="Jarvis">
 
 </div>
 
@@ -123,11 +161,11 @@ No cloud required.
 
 ---
 
-<div align="center">
-
 # Built for Developers
 
-<img src="Preview_images/Jarvis_coding-agent.png" alt="Development">
+<div align="center">
+
+<img src="Preview_images/Jarvis_coding-agent.png" width="100%" alt="Development">
 
 </div>
 
@@ -150,17 +188,20 @@ Your operating system understands your projects.
 
 ---
 
-<div align="center">
-
 # Theme Everything
 
-<img src="Preview_images/Theme_Manager.png" alt="Theme Manager">
+<div align="center">
 
-<img src="Preview_images/walr_themes.png" alt="Theme Manager">
+<img src="Preview_images/Theme_Manager.png" width="100%">
 
-<img src="Preview_images/walr_theme-change.png" alt="Theme Manager">
+<br><br>
 
-<img src="Preview_images/walr_apps_theme.png" alt="Theme Manager">
+<img src="Preview_images/walr_themes.png" width="48%">
+<img src="Preview_images/walr_theme-change.png" width="48%">
+
+<br><br>
+
+<img src="Preview_images/walr_apps_theme.png" width="100%">
 
 </div>
 
@@ -182,11 +223,59 @@ Everything remains synchronized.
 
 ---
 
+# Built Around Your System
+
+ReepCore doesn't stop at configuring your desktop.
+
+It understands the operating system itself.
+
 <div align="center">
+
+<img src="Preview_images/ReepCore_System_Information.png" width="100%" alt="System Information">
+
+</div>
+
+Track:
+
+- Installed kernels
+- Bootloader configuration
+- Btrfs snapshots
+- Generations
+- Runtime state
+- System information
+
+All from one interface.
+
+---
+
+# Know Your System
+
+Before making changes, ReepCore verifies your environment.
+
+<div align="center">
+
+<img src="Preview_images/Doctor.png" width="100%" alt="Doctor">
+
+</div>
+---
+Health checks include:
+
+- Theme validation
+- ReepCompositor
+- GTK integration
+- Runtime verification
+- Configuration checks
+- Dependency validation
+
+Know what's wrong before it becomes a problem.
+
+---
 
 # Monitor Everything
 
-<img src="Preview_images/Real_Time_Monitoring.png" alt="Monitoring">
+<div align="center">
+
+<img src="Preview_images/Real_Time_Monitoring.png" width="100%" alt="Monitoring">
 
 </div>
 
@@ -204,23 +293,6 @@ Monitor:
 - Security Events
 
 Without leaving ReepCore.
-
----
-
-# The ReepCore Ecosystem
-
-| Component | Purpose |
-|-----------|---------|
-| 🧠 **REEPCORE** | Declarative system management |
-| 🤖 **Jarvis** | AI assistant |
-| 🖥 **ReepCompositor** | Wayland compositor |
-| 🎨 **walr** | Color engine |
-| 🖼 **reepaper** | Wallpaper daemon |
-| 🚀 **reep-launcher** | Application launcher |
-| 📂 **reef** | File manager |
-| ✏ **reepedit** | Embedded editor |
-| 💻 **reep-shell** | Native shell |
-| 📊 **reepfetch** | System renderer |
 
 ---
 
@@ -252,28 +324,6 @@ No telemetry.
 
 ---
 
-# Architecture
-
-```text
-                         ReepCore
-                             │
-       ┌─────────────────────┼────────────────────┐
-       │                     │                    │
-   System State         Desktop Stack      Development
-       │                     │                    │
- Profiles             ReepCompositor      reepedit
- Modules              walr                Jarvis
- Rollbacks            reepaper            RAG
- Packages             reep-shell          Sandbox
- Generations          Launcher            MCP
-```
-
-Everything answers one question.
-
-> **State? Output? Or Control?**
-
----
-
 # Quick Start
 
 ```bash
@@ -302,11 +352,11 @@ It doesn't try to become another Linux distribution.
 
 Instead...
 
-It formalizes one complete Linux environment into a cohesive operating system where every component understands every other component.
+It formalizes one complete Linux environment into a cohesive platform where every component understands every other component.
 
 The result isn't a collection of tools.
 
-It's a platform.
+It's an operating environment.
 
 ---
 
