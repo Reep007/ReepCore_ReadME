@@ -201,7 +201,10 @@ Your operating system understands your projects.
 
 <br><br>
 
-<img src="Preview_images/walr_apps_theme.png" width="100%">
+<img src="Preview_images/reef-File_Manager_Terminal.png" width="48%">
+<img src="Preview_images/walr_apps_theme.png" width="48%">
+
+<br><br>
 
 </div>
 
