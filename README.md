@@ -94,7 +94,7 @@ Everything works together.
 
 # Meet Jarvis
 
-<img src="Preview_images/jarvis.png" alt="Jarvis">
+<img src="Preview_images/Jarvis.png" alt="Jarvis">
 
 </div>
 
@@ -127,7 +127,7 @@ No cloud required.
 
 # Built for Developers
 
-<img src="Preview_images/development.png" alt="Development">
+<img src="Preview_images/Jarvis_coding-agent.png" alt="Development">
 
 </div>
 
@@ -154,7 +154,13 @@ Your operating system understands your projects.
 
 # Theme Everything
 
-<img src="Preview_images/themes.png" alt="Theme Manager">
+<img src="Preview_images/Theme_Manager.png" alt="Theme Manager">
+
+<img src="Preview_images/walr_themes.png" alt="Theme Manager">
+
+<img src="Preview_images/walr_theme-change.png" alt="Theme Manager">
+
+<img src="Preview_images/walr_apps_theme.png" alt="Theme Manager">
 
 </div>
 
@@ -180,7 +186,7 @@ Everything remains synchronized.
 
 # Monitor Everything
 
-<img src="Preview_images/monitoring.png" alt="Monitoring">
+<img src="Preview_images/Real_Time_Monitoring.png" alt="Monitoring">
 
 </div>
 
