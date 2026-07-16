@@ -254,7 +254,7 @@ Before making changes, ReepCore verifies your environment.
 
 <div align="center">
 
-<img src="Preview_images/doctor.png" width="100%" alt="Doctor">
+<img src="Preview_images/doctor.png" width="100%" alt="doctor">
 
 </div> 
 
