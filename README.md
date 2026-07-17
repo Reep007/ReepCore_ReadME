@@ -1,20 +1,15 @@
-
 <div align="center">
 
-<img width="5240" height="2600" alt="ReepCore Banner" src="https://github.com/user-attachments/assets/8cefb073-2704-4507-840d-39c29217b1ec">
----
----
-
-<div align="center">
-
-<img src="Preview_images/ReepCore.png" width="100%" alt="ReepCore Overview">
+<img src="Preview_images/ReepCore_tooling.png" width="100%" alt="ReepCore Overview">
 
 </div>
 
 
 
----
 
+---
+<div align="center">
+  
 # A Different Kind of Linux Environment
 
 Most Linux desktops slowly become collections of unrelated tools.
@@ -57,9 +52,10 @@ AI becomes part of the operating environment instead of another application.
 
 <div align="center">
 
-<img src="Preview_images/ReepCore_tooling.png" width="100%" alt="ReepCore Overview">
+<img src="Preview_images/ReepCore.png" width="100%" alt="ReepCore Overview">
 
 </div>
+
 
 
 
@@ -69,8 +65,9 @@ ReepCore transforms a traditional Arch Linux installation into a cohesive operat
 
 
 
-
 ---
+<div align="center">
+
 
 # Built Around One Source of Truth
 
@@ -86,7 +83,8 @@ ReepCore transforms a traditional Arch Linux installation into a cohesive operat
  Generations     Cache              Jarvis
  Modules         Runtime            Automation
 ```
-
+<div align="center">
+  
 Everything belongs somewhere.
 
 Everything has one owner.
@@ -139,18 +137,18 @@ It lives inside your operating system.
 
 It understands:
 
-- Running system
-- Installed packages
-- Active profiles
-- Theme state
-- Open files
-- Embedded editor
-- Embedded terminal
-- Git worktrees
-- Local RAG
-- JetBrains MCP
-- Network monitoring
-- Security monitoring
+Running system
+Installed packages
+Active profiles
+Theme state
+Open files
+Embedded editor
+Embedded terminal
+Git worktrees
+Local RAG
+JetBrains MCP
+Network monitoring
+Security monitoring
 
 Everything runs locally through Ollama.
 
@@ -170,16 +168,16 @@ Development happens without leaving ReepCore.
 
 Included workflows:
 
-- Embedded editor
-- Interactive terminal
-- AI code review
-- Unified diff preview
-- Patch application
-- Cargo integration
-- Git sandbox worktrees
-- RustRover MCP
-- Local RAG
-- Multi-model routing
+Embedded editor
+Interactive terminal
+AI code review
+Unified diff preview
+Patch application
+Cargo integration
+Git sandbox worktrees
+RustRover MCP
+Local RAG
+Multi-model routing
 
 Your operating system understands your projects.
 
