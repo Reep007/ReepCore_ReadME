@@ -211,11 +211,11 @@ Everything updates.
 
 walr automatically generates:
 
-- Terminal colors
-- GTK themes
-- Wayland themes
-- Application themes
-- Shell colors
+Terminal colors
+GTK themes
+Wayland themes
+Application themes
+Shell colors
 
 Everything remains synchronized.
 
@@ -237,12 +237,12 @@ It understands the operating system itself.
 
 Track:
 
-- Installed kernels
-- Bootloader configuration
-- Btrfs snapshots
-- Generations
-- Runtime state
-- System information
+Installed kernels
+Bootloader configuration
+Btrfs snapshots
+Generations
+Runtime state
+System information
 
 All from one interface.
 
@@ -260,12 +260,12 @@ Before making changes, ReepCore verifies your environment.
 
 Health checks include:
 
-- Theme validation
-- ReepCompositor
-- GTK integration
-- Runtime verification
-- Configuration checks
-- Dependency validation
+Theme validation
+ReepCompositor
+GTK integration
+Runtime verification
+Configuration checks
+Dependency validation
 
 Know what's wrong before it becomes a problem.
 
@@ -283,14 +283,14 @@ Your desktop is also your operations center.
 
 Monitor:
 
-- CPU
-- Memory
-- Network
-- Services
-- ntopng
-- Fail2Ban
-- Suricata
-- Security Events
+CPU
+Memory
+Network
+Services
+ntopng
+Fail2Ban
+Suricata
+Security Events
 
 Without leaving ReepCore.
 
