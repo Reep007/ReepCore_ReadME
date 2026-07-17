@@ -322,23 +322,6 @@ No cloud.
 
 No telemetry.
 
----
-
-# Quick Start
-
-```bash
-git clone https://github.com/Reep007/ReepCore
-
-cd ReepCore
-
-./bootstrap.sh --yes
-
-reepcore init --template reepcore-setup
-
-reepcore switch
-
-sudo reboot
-```
 
 ---
 
