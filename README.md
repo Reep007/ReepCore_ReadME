@@ -2,18 +2,16 @@
 <div align="center">
 
 <img width="5240" height="2600" alt="ReepCore Banner" src="https://github.com/user-attachments/assets/8cefb073-2704-4507-840d-39c29217b1ec">
+---
+---
 
-# ReepCore
+<div align="center">
 
-### Your Machine. Formalized.
-
-*A cohesive Linux operating environment where your desktop, development tools, system configuration, and AI all share one source of truth.*
-
-<br>
-
-**Built with Rust • Powered by Arch Linux • Local AI • Declarative • Wayland Native**
+<img src="Preview_images/ReepCore.png" width="100%" alt="ReepCore Overview">
 
 </div>
+
+
 
 ---
 
@@ -59,19 +57,18 @@ AI becomes part of the operating environment instead of another application.
 
 <div align="center">
 
-<img src="Preview_images/ReepCore.png" width="100%" alt="ReepCore Overview">
+<img src="Preview_images/ReepCore_tooling.png" width="100%" alt="ReepCore Overview">
 
 </div>
+
+
 
 ReepCore transforms a traditional Arch Linux installation into a cohesive operating environment where system management, desktop configuration, development, and AI all operate from one source of truth.
 
 ---
 
-# Everything Works Together
 
-| 🧠 Local AI | ⚙ Declarative | 🖥 Native Wayland |
-|:-----------:|:------------:|:----------------:|
-| Jarvis understands your system. | Reproducible configurations. | Built specifically for ReepCore. |
+
 
 ---
 
