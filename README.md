@@ -127,6 +127,10 @@ Everything is declarative.
 
 <div align="center">
 
+<img src="Preview_images/Jarvis _Chat.png" width="100%" alt="Jarvis">
+
+<div align="center">
+
 <img src="Preview_images/Jarvis.png" width="100%" alt="Jarvis">
 
 </div>
