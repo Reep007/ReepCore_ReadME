@@ -156,8 +156,6 @@ No cloud required.
 
 ---
 
-# Built for Developers
-
 <div align="center">
 
 <img src="Preview_images/Jarvis_coding-agent.png" width="100%" alt="Development">
